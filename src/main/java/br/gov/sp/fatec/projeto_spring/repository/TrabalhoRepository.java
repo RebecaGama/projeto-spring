@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-import sp.gov.sp.fatec.springatv20242.entity.Trabalho;
+import br.gov.sp.fatec.projeto_spring.entity.Trabalho;
 
 public interface TrabalhoRepository extends CrudRepository<Trabalho, Long> {
 

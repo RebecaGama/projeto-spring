@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import sp.gov.sp.fatec.springatv20242.entity.Trabalho;
-import sp.gov.sp.fatec.springatv20242.service.TrabalhoService;
+import br.gov.sp.fatec.projeto_spring.entity.Trabalho;
+import br.gov.sp.fatec.projeto_spring.service.TrabalhoService;
 
 @RestController
 @RequestMapping(value = "/trabalho")
